@@ -1,3 +1,5 @@
+require 'rspec'
+
 describe 'index.html' do
 
 
