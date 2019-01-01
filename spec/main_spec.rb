@@ -1,5 +1,12 @@
 require 'rspec'
 
+RSpec.configure do |config|
+  # config.before(:all) do
+  #   start_server_thread
+  #   Capybara.current_session.driver.browser.manage.window.resize_to(1024, 768)
+  #   create_screenshots
+  end
+
 describe 'index.html' do
 
 
