@@ -2,8 +2,7 @@ require 'rspec'
 
 RSpec.configure do |config|
   config.order = 'default'
-
-  end
+end
 
 describe 'index.html' do
 
@@ -12,7 +11,7 @@ describe 'index.html' do
     # created a "test" that will always pass
     # do not know the expected outcome of this lab
     answer = 100
-    expect(answer).to eq(100) 
+    expect(answer).to eq(100)
   end
 
 end
