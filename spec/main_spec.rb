@@ -1,5 +1,5 @@
 require 'rspec'
-require "spec_helper'
+require 'spec_helper'
 
 describe 'index.html' do
 
